@@ -41,3 +41,11 @@ class ProductManager {
         return this.products[indice];
     }
 }
+
+let op = new ProductManager()
+op.addProduct('producto prueba', 'es una prueba', '500', 'none', 'sd45', '15')
+op.addProduct('prueba2', 'otra prueba', '700', 'anyware', 'gd45', '12')
+op.addProduct('prueba3', 'otra mas prueba', '900', 'anymore', 'gd45', '1')
+
+console.log(op.getProducts());
+console.log(op.getProductsById(48));

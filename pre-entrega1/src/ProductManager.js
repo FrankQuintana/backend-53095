@@ -31,8 +31,12 @@ export class ProductManager {
                 await fs.promises.writeFile(this.path, `${JSON.stringify(dataJS, null, 2)}`, 'utf-8')
     
             }else{
-                product.id = 1
-                const arrProducts = [product]
+
+                // modificacion
+                product.id = dataJS.length > 0 ?
+                dataJS[dataJS.length - 1].id + 1 : 1;
+                // product.id = 1
+                // const arrProducts = [product]
     
                 await fs.promises.writeFile(this.path, `${JSON.stringify(arrProducts, null, 2)}`, 'utf-8')
             }

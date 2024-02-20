@@ -27,7 +27,9 @@ router.get('/:cid', async (req, res) => {
                 product.quantity = element.quantity
                 arrPC = [...arrPC, product]
 
-                if(cartProducts.length == arrPC.length) res.send(arrPC)
+                if(cartProducts.length == arrPC.length) {
+                    res.status(200).json(arrPC);
+                }
             } catch (error) {
                 console.log(error)
             }

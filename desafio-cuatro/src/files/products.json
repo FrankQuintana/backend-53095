@@ -1,0 +1,73 @@
+[
+    {
+         "id": 1,
+         "title": "cuadro1",
+         "description": "descripcion cuadro1",
+         "price": 9999,
+         "thumbnail": "https://google.com.ar",
+         "code": "1234",
+         "stock": 10,
+         "category":"war"
+    },
+    {
+         "id": 2,
+         "title": "cuadro2",
+         "description": "descripcion cuadro2",
+         "price": 9999,
+         "thumbnail": "https://google.com.ar",
+         "code": "1234",
+         "stock": 10,
+         "category":"war"
+    },
+    {
+         "id": 3,
+         "title": "cuadro3",
+         "description": "descripcion cuadro3",
+         "price": 9999,
+         "thumbnail": "https://google.com.ar",
+         "code": "1234",
+         "stock": 10,
+         "category":"war"
+    },
+    {
+         "id": 4,
+         "title": "cuadro4",
+         "description": "descripcion cuadro4",
+         "price": 9999,
+         "thumbnail": "https://google.com.ar",
+         "code": "1234",
+         "stock": 10,
+         "category":"war" 
+    },
+    {
+         "id": 5,
+         "title": "cuadro5",
+         "description": "descripcion cuadro5",
+         "price": 9999,
+         "thumbnail": "https://google.com.ar",
+         "code": "1234",
+         "stock": 10,
+         "category":"war"
+    },
+    {
+         "id": 6,
+         "title": "cuadro6",
+         "description": "descripcion cuadro6",
+         "price": 9999,
+         "thumbnail": "https://google.com.ar",
+         "code": "1234",
+         "stock": 10,
+         "category":"war"
+    },
+    {
+         "title": "cuadro7",
+         "description": "cuadro de postman",
+         "price": 7999,
+         "thumbnail": "https://google.com.ar",
+         "code": "1234",
+         "stock": 5,
+         "status": "true",
+         "category": "war",
+         "id": 7
+    }
+]
